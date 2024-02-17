@@ -3,7 +3,6 @@ import {MatDialog} from '@angular/material/dialog';
 import { EmpAddEditComponent } from './emp-add-edit/emp-add-edit.component';
 
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -17,8 +16,12 @@ export class AppComponent {
 constructor(private _dialog: MatDialog){}
 OpenAddEditEmpForm(){
   this._dialog.open(EmpAddEditComponent,{
-    width:'35%',
-    height:'50%'
+    width:'40%',
+    height:'71%'
   })
 }
 }
+
+
+
+
