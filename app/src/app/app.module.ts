@@ -13,6 +13,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import { EmpAddEditComponent } from './emp-add-edit/emp-add-edit.component';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatSelectModule} from '@angular/material/select';
+
 
 
 
@@ -33,7 +36,10 @@ import { MatNativeDateModule } from '@angular/material/core';
     MatInputModule,
     MatFormFieldModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatRadioModule,
+    MatSelectModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

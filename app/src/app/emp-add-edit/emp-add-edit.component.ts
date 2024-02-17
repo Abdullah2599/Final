@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./emp-add-edit.component.css']
 })
 export class EmpAddEditComponent {
-
+ education: string[] = [
+   'Matric',
+   'Diploma',
+   'Intermediate',
+   'Graduate'
+ ]
 }
